@@ -1,0 +1,104 @@
+*
+body{
+	background-color: lightcyan;
+
+}
+h1 {
+text-align: center;
+font-family: algerian;
+font-size: 200%;
+color: blue;
+}
+
+h2{
+text-align: center;
+font-family: algerian;
+font-size: 200%;
+color: blues;
+}
+
+h3{
+	font-family: Times New Roman;
+	font-size: 150%;
+}
+
+h4{
+	font-family: Times New Roman;
+	font-size: 200%;
+	color: skyblue;
+
+}
+content p1{
+	color: whitesmoke;
+	font-family: Times New Roman;
+	font-size: 150;
+}
+.shop {
+    background-color: #333333;
+    width: 100%;
+}
+
+.shop .shop-header {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.shop-header h3 {
+    color: orange;
+    padding: 10px 30px;
+}
+
+.shop-header h4 {
+    color: orange;
+    padding: 10px 20px;
+}
+
+.shop-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #404040;
+    padding: 50px 0;
+    flex-wrap: wrap;
+}
+
+.shop-box .card {
+    width: 280px;
+    margin: 20px;
+}
+
+.shop-box .card-image {
+    width: 350px;
+    height: 500px;
+    overflow: hidden;
+}
+
+.shop-box .card-image img:hover {
+    transform: scale(1.1);
+    transition: transform .4s ease-in-out;
+}
+
+.shop-box .card-body {
+    padding: 10px;
+    color: white;
+    border: 3px solid #383838;
+}
+
+.shop-box .card-body h3 {
+    padding: 10px 0;
+}
+
+.shop-box,
+.card-body i {
+    color: yellow;
+    font-size: 10px;
+    position: relative;
+    bottom: 5px;
+}
+
+.shop-box .card-body .cash {
+    font-size: 22px;
+    margin-left: 90px;
+}
